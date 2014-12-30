@@ -1,0 +1,4 @@
+Start time : 1419957377
+Finish time : 1419957448
+
+It took 71 seconds to analyze the insert property of the 9M log ldcc.csv
