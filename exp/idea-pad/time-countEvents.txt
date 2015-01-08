@@ -1,3 +1,4 @@
+My:
 Start time : 1419973019
 Finish time : 1419973535
 
@@ -6,4 +7,8 @@ It took my idea-pad 516 seconds to count all the insert events in the 9M log
 There are 93149 log entries!
 
 There are totally 93149 log entries in the log file (by counting the number of @)!
+
+
+Monpoly:
+
 
