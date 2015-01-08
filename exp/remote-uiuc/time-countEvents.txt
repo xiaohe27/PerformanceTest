@@ -1,14 +1,14 @@
-My:
-Start time : 1419973019
-Finish time : 1419973535
+My log analyzer:
+Start time : 1420742148
+There are totally 93149 log entries in the log file!
 
-It took my idea-pad 516 seconds to count all the insert events in the 9M log
+Finish time : 1420742157
 
-There are 93149 log entries!
-
-There are totally 93149 log entries in the log file (by counting the number of @)!
-
+It took my log analyzer 9 seconds to count the number of log entries in the 9M log ldcc4Monpoly
 
 Monpoly:
+Start time : 1420742429
+There are 89961 log entries in the log file!
+Finish time : 1420742578
 
-
+It took "Monpoly-count" 149 seconds to count the number of log entries in the 9M log file
