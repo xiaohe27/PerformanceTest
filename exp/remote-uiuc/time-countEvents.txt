@@ -1,10 +1,12 @@
 My log analyzer:
-Start time : 1420757714
+Start time : 1420861463
 There are 93149 log entries!
+It took my log analyzer 296310 ms to count all the log entries in the log file.
 
-Finish time : 1420758049
+Finish time : 1420861761
 
-It took my log analyzer 335 seconds to count the number of log entries in the 9M log ldcc4Monpoly
+It took my log analyzer 298 seconds to count the number of log entries in the 9M log ldcc4Monpoly
+
 
 Monpoly (ocamlc):
 Start time : 1420742429
