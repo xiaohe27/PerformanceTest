@@ -11,3 +11,24 @@ Start time : 1420750020
 There are 89961 log entries in the log file!
 Finish time : 1420750154
 It took 134 seconds to count the number of log entries in the 9M log file!
+
+
+===========================================================================
+My log analyzer:
+Start time : 1420751328
+There are totally 93149 log entries in the log file!
+
+Finish time : 1420751579
+
+It took my log analyzer 251 seconds to count the number of log entries in the 9M log
+
+
+************************************
+After optimization--My Log Analyzer:
+Start time : 1420926069
+There are 93149 log entries!
+It took my log analyzer 19525 ms to count all the log entries in the log file.
+
+Finish time : 1420926089
+
+It took my log analyzer 20 seconds to count all the events in the 9M log ldcc4Monpoly at Siebel
