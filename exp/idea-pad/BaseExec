@@ -14,3 +14,10 @@ It took my log analyzer 36865 ms to count all the insert events in the log file.
 Finish time : 1420978338
 
 It took my log analyzer 37 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using an all-can-pass formula
+
+If using the approach of reading line by line (no regex is used and therefore
+cannot detect ill-formed log entries):
+
+It took my log analyzer 30 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad
+
+
