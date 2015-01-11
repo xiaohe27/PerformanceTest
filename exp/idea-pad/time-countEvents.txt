@@ -17,6 +17,9 @@ It took 37 seconds to count all the entries in the 9M log ldcc4Monpoly
 There are 93149 log entries!
 It took my log analyzer 36196 ms to count all the log entries in the log file.
 
+10.8% faster than Monpoly built by ocamlopt
+548.6% faster than Monpoly built by ocamlc
+
 
 
 ********************************************************************************
