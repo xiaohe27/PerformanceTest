@@ -1,6 +1,17 @@
+My log analyzer:
 Start time : 1420938681
 It took my log analyzer 23801 ms to count all the insert events in the log file.
 
 Finish time : 1420938705
 
 It took my log analyzer 24 seconds to count all the insert to db2 events in the 9M log ldcc4Monpoly at Siebel
+
+
+
+Monpoly (opt):
+Start time : 1420939181
+Finish time : 1420939217
+
+It took Monpoly 36 seconds to output the insert 2 db2 events in the 9M log file!
+
+50% percent faster
