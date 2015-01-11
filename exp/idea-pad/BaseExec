@@ -4,3 +4,13 @@ Finish time : 1420947672
 
 It took Monpoly 34 seconds to scan all the log entries in the 9M log file by using 
 an always pass formula (check insert)!
+
+
+=========================================================================================
+Start time : 1420978301
+There are 93149 log entries in the log file!~!
+It took my log analyzer 36865 ms to count all the insert events in the log file.
+
+Finish time : 1420978338
+
+It took my log analyzer 37 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using an all-can-pass formula
