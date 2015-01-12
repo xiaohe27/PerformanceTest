@@ -28,6 +28,7 @@ It took my log analyzer 30 seconds to count all the events in the 9M log ldcc4Mo
 
 
 ***************************************************************************************************
+
 My log analyzer use buffered reader, no regex:
 Start time : 1421082110
 There are 93149 log entries in the log file!~!
@@ -36,6 +37,16 @@ It took my log analyzer 20941 ms to count all the log entries in the log file.
 Finish time : 1421082131
 
 It took my log analyzer 21 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using reading line by line approach
+
+removing some security check:
+Start time : 1421083226
+There are 93149 log entries in the log file!~!
+It took my log analyzer 18258 ms to count all the log entries in the log file.
+
+Finish time : 1421083245
+
+It took my log analyzer 19 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using reading line by line approach
+
 ===================================================================================================
 
 ********************************************************************************
