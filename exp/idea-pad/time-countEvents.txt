@@ -47,6 +47,8 @@ Finish time : 1421083245
 
 It took my log analyzer 19 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using reading line by line approach
 
+79% faster than Monpoly's opt
+
 ===================================================================================================
 
 ********************************************************************************
