@@ -1,0 +1,50 @@
+Start time : 1420947638
+
+Finish time : 1420947672
+
+It took Monpoly 34 seconds to scan all the log entries in the 9M log file by using 
+an always pass formula (check insert)!
+
+
+=========================================================================================
+Start time : 1420978301
+There are 93149 log entries in the log file!~!
+It took my log analyzer 36865 ms to count all the insert events in the log file.
+
+Finish time : 1420978338
+
+It took my log analyzer 37 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using an all-can-pass formula
+
+===
+If using the approach of reading line by line (no regex is used and therefore
+cannot detect ill-formed log entries):
+
+It took my log analyzer 30 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad
+
+After adding the regex for tuple, it becomes:
+32 seconds
+
+6.25% faster than Monpoly's opt.
+
+
+=============*******************========================
+removing LogEntry Object, just parse each basic element
+
+Start time : 1421157832
+There are 93149 log entries in the log file!~!
+It took my log analyzer 16915 ms to count all the log entries in the log file.
+
+Finish time : 1421157849
+
+It took my log analyzer 17 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using reading line by line approach
+
+If Using Regex to parse each tuple, it becomes:
+29 seconds
+
+My LogAnalyzer's
+Un-checked fast version:  one time faster than Monpoly's opt
+
+RegEx version: 17% faster than Monpoly's opt
+
+
+
