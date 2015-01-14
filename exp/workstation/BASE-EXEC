@@ -1,0 +1,8 @@
+Start time : 1421270842
+Finish time : 1421270860
+
+It took Monpoly (opt) 18 seconds to parse all the events in the 9M log file!
+
+Then it found the syntax err at the last line:
+
+=================================================================================
