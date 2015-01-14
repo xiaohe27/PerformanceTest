@@ -47,3 +47,12 @@ It took my log analyzer 8.580 seconds to count all the log entries in the log fi
 @@Use regex for extracting tuple
 There are 93149 log entries in the log file!~!
 It took my log analyzer 15.626 seconds to count all the log entries in the log file.
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Use unchecked byte:
+Direct memory read use allocateDirect:
+In the test with buf size 4 KB, the avg time used is 2411 ms = 2.411 seconds
+
+9.95 times faster than Monpoly's native code

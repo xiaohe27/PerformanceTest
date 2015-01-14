@@ -1,3 +1,7 @@
+Using a formula that is always satisfied:
+Inserting to a non-existing db implies the user who performed the insertion is some nobody!
+I.E. false IMPLIES false
+
 Start time : 1421270842
 Finish time : 1421270860
 
@@ -6,3 +10,10 @@ It took Monpoly (opt) 18 seconds to parse all the events in the 9M log file!
 Then it found the syntax err at the last line:
 
 =================================================================================
+
+It took my log analyzer 5.653 seconds to parse all the events in the log file.
+
+2.184 times faster than Monpoly's native code
+
+
+
