@@ -1,0 +1,44 @@
+Indirect:
+
+In the test with buf size 1 KB, the avg time used is 2797
+
+In the test with buf size 2 KB, the avg time used is 2671
+
+In the test with buf size 4 KB, the avg time used is 2646
+
+
+In the test with buf size 8 KB, the avg time used is 2630
+
+In the test with buf size 16 KB, the avg time used is 2614
+
+
+In the test with buf size 32 KB, the avg time used is 2634
+
+
+In the test with buf size 64 KB, the avg time used is 2619
+
+
+In the test with buf size 128 KB, the avg time used is 2627
+
+
+
+In the test with buf size 256 KB, the avg time used is 2601
+
+
+In the test with buf size 512 KB, the avg time used is 2625
+
+
+Direct Memory reading:
+In the test with buf size 1 KB, the avg time used is 2591
+In the test with buf size 2 KB, the avg time used is 2505
+In the test with buf size 4 KB, the avg time used is 2485
+In the test with buf size 8 KB, the avg time used is 2496
+In the test with buf size 16 KB, the avg time used is 2465
+In the test with buf size 32 KB, the avg time used is 2463
+In the test with buf size 64 KB, the avg time used is 2473
+In the test with buf size 128 KB, the avg time used is 2447
+In the test with buf size 256 KB, the avg time used is 2452
+In the test with buf size 512 KB, the avg time used is 2441
+
+
+
