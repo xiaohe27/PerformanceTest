@@ -16,11 +16,9 @@ In the test with buf size 256 KB, the avg time used is 3159
 In the test with buf size 512 KB, the avg time used is 3269
 
 Indirect:
-1kb 3571 3502
-4kb 3048 4052 3249
-8kb 3076 2981 2984 3031
-16kb 2958 3088 2984
-32kb 2993 3012
-64kb 3063 2951
-128kb 
-256kb 
+
+
+=============================================================
+Very rigorous read by byte:
+There are 93149 log entries in the log file!!!
+It took my log analyzer 3474 ms to count all the log entries in the log file
