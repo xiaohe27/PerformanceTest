@@ -41,6 +41,10 @@ It took my log analyzer 17 seconds to count all the events in the 9M log ldcc4Mo
 If Using Regex to parse each tuple, it becomes:
 29 seconds
 
+If reading byte by byte, then even if doing all the security checks and ensures the grammar is exactly the same as Monpoly
+it only took 5.2 seconds to parse all the 93149 log entries, which is 
+6.5 times as fast as Monpoly, 5.5 times faster than Monpoly
+
 My LogAnalyzer's
 Un-checked fast version:  one time faster than Monpoly's opt
 

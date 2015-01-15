@@ -61,6 +61,25 @@ Finish time : 1421157849
 It took my log analyzer 17 seconds to count all the events in the 9M log ldcc4Monpoly at Idea-Pad using reading line by line approach
 
 ===================================================================================================
+Current best performance:
+Read byte by byte, do all the security check~
+93149 log entries, time in milliseconds
+For each buf size, 20 tests are executed and the avg is computed.
+
+In the test with buf size 1 KB, the avg time used is 5381
+In the test with buf size 2 KB, the avg time used is 5294
+In the test with buf size 4 KB, the avg time used is 5248
+In the test with buf size 8 KB, the avg time used is 5234
+In the test with buf size 16 KB, the avg time used is 5215
+In the test with buf size 32 KB, the avg time used is 5208
+
+In the test with buf size 64 KB, the avg time used is 5188
+
+In the test with buf size 128 KB, the avg time used is 5189
+In the test with buf size 256 KB, the avg time used is 5206
+In the test with buf size 512 KB, the avg time used is 5308
+
+===================================================================================================
 
 ********************************************************************************
 Monpoly (opt):

@@ -1,0 +1,14 @@
+Start time : 1421337624
+@1277857421 (time-point 93148): (ARealUserInTheDB,104,73414887)
+
+Finish time : 1421337658
+
+It took Monpoly (opt) 34 seconds to find the single violation (the last entry) in the 9M log file!
+
+
+====================================================================================================
+
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414887)
+It took my log analyzer 5.884 seconds to count all the log entries in the log file.
+
+About 5.778 times as fast as Monpoly opt, 4.778 times faster than Monpoly opt!
