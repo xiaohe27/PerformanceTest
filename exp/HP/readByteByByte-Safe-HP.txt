@@ -24,3 +24,10 @@ In the test with buf size 64 KB, the avg time used is 3121
 
 In the test with buf size 128 KB, the avg time used is 4068
 In the test with buf size 256 KB, the avg time used is 3812
+
+===================
+MappedByteBuffer
+Default 4kb buf size
+It takes my log analyzer 3050 ms to count all the events in the log file after running 15 tests
+
+About 10% faster than bytebuffer.allocateDirect
