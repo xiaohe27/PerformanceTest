@@ -1,0 +1,33 @@
+Using mapped byte buffer with byte array (bulk read)
+
+In the test with buf size 1 KB, the avg time used is 3628
+In the test with buf size 2 KB, the avg time used is 2723
+In the test with buf size 4 KB, the avg time used is 2725
+In the test with buf size 8 KB, the avg time used is 2715
+In the test with buf size 16 KB, the avg time used is 2717
+
+In the test with buf size 32 KB, the avg time used is 2644
+
+In the test with buf size 64 KB, the avg time used is 2694
+In the test with buf size 128 KB, the avg time used is 2716
+In the test with buf size 256 KB, the avg time used is 2728
+In the test with buf size 512 KB, the avg time used is 2705
+
+
+---------------------------------------------------------------
+Using direct byte buffer:
+
+In the test with buf size 1 KB, the avg time used is 3206
+In the test with buf size 2 KB, the avg time used is 3132
+In the test with buf size 4 KB, the avg time used is 3119
+In the test with buf size 8 KB, the avg time used is 3133
+In the test with buf size 16 KB, the avg time used is 3103
+
+In the test with buf size 32 KB, the avg time used is 3074
+
+In the test with buf size 64 KB, the avg time used is 3077
+In the test with buf size 128 KB, the avg time used is 3081
+In the test with buf size 256 KB, the avg time used is 3081
+In the test with buf size 512 KB, the avg time used is 3093
+
+Using mapped byte buffer is about 15% faster than using byte buffer with allocateDirect method.
