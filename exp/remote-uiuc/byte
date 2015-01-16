@@ -1,0 +1,30 @@
+Byte buffer: direct
+
+In the test with buf size 1 KB, the avg time used is 5836
+In the test with buf size 2 KB, the avg time used is 4766
+In the test with buf size 4 KB, the avg time used is 4618
+In the test with buf size 8 KB, the avg time used is 4518
+In the test with buf size 16 KB, the avg time used is 4710
+In the test with buf size 32 KB, the avg time used is 4896
+In the test with buf size 64 KB, the avg time used is 4708
+In the test with buf size 128 KB, the avg time used is 4593
+In the test with buf size 256 KB, the avg time used is 4735
+In the test with buf size 512 KB, the avg time used is 4473
+
+
+MappedByteBuffer:
+Default:
+It takes my log analyzer 3956 ms to count all the events in the log file after running 15 tests
+
+
+In the test with buf size 1 KB, the avg time used is 5759
+In the test with buf size 2 KB, the avg time used is 4333
+In the test with buf size 4 KB, the avg time used is 4423
+In the test with buf size 8 KB, the avg time used is 4069
+In the test with buf size 16 KB, the avg time used is 4161
+In the test with buf size 32 KB, the avg time used is 4119
+In the test with buf size 64 KB, the avg time used is 4395
+In the test with buf size 128 KB, the avg time used is 4308
+In the test with buf size 256 KB, the avg time used is 4394
+In the test with buf size 512 KB, the avg time used is 4347
+

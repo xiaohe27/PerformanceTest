@@ -9,6 +9,11 @@ It took my log analyzer 27 seconds to count the number of log entries in the 9M 
 
 My log analyzer is 451.85% faster than Monpoly built by ocamlc 
 
+
+Byte by byte using MappedByteBuffer:
+It takes my log analyzer 3956 ms to count all the events in the log file after running 15 tests
+
+
 ******************************************************************8
 Monpoly (ocamlc):
 Start time : 1420742429
