@@ -1,0 +1,31 @@
+MappedByte Buffer:
+
+In the test with buf size 1 KB, the avg time used is 7399
+In the test with buf size 2 KB, the avg time used is 5472
+In the test with buf size 4 KB, the avg time used is 5490
+In the test with buf size 8 KB, the avg time used is 5506
+In the test with buf size 16 KB, the avg time used is 5541
+
+In the test with buf size 32 KB, the avg time used is 5311
+
+In the test with buf size 64 KB, the avg time used is 5442
+In the test with buf size 128 KB, the avg time used is 5435
+In the test with buf size 256 KB, the avg time used is 5433
+In the test with buf size 512 KB, the avg time used is 5435
+
+
+Direct ByteBuffer:
+In the test with buf size 1 KB, the avg time used is 5567
+In the test with buf size 2 KB, the avg time used is 5484
+In the test with buf size 4 KB, the avg time used is 5324
+In the test with buf size 8 KB, the avg time used is 5306
+In the test with buf size 16 KB, the avg time used is 5334
+In the test with buf size 32 KB, the avg time used is 5266
+
+In the test with buf size 64 KB, the avg time used is 5239
+
+In the test with buf size 128 KB, the avg time used is 5245
+In the test with buf size 256 KB, the avg time used is 5257
+In the test with buf size 512 KB, the avg time used is 5274
+
+
