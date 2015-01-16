@@ -31,3 +31,21 @@ In the test with buf size 256 KB, the avg time used is 3081
 In the test with buf size 512 KB, the avg time used is 3093
 
 Using mapped byte buffer is about 15% faster than using byte buffer with allocateDirect method.
+
+=====================
+Using mapped byte buffer, and no byte array nor bulk read
+2762.3 ms, slightly slower than mapped buffer with bulk read
+
+***************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
