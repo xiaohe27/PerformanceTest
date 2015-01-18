@@ -33,3 +33,16 @@ It took my log analyzer 3.313 seconds to count all the log entries in the log fi
 4.43 times faster than Monpoly's opt
 I.E. 5.43 times as fast as Monpoly's best time
 
+----
+For the first time running the test (in Intellij's junit test):
+My log analyzer: 4.5 seconds, which is 3 times faster than Monpoly
+
+
+----------------------------------------------------------------------------------------------------
+After restarting, first time, from terminal
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414889)
+It took my log analyzer 2.908 seconds to count all the log entries in the log file.
+
+terminal, second time:
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414889)
+It took my log analyzer 2791 ms to count all the log entries in the log file.

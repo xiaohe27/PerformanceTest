@@ -1,5 +1,8 @@
 Using mapped byte buffer with byte array (bulk read)
 
+***First time: 4711 ms, default 4kb************
+***First time: 4205 ms, 64kb*******************
+
 In the test with buf size 1 KB, the avg time used is 3628
 In the test with buf size 2 KB, the avg time used is 2723
 In the test with buf size 4 KB, the avg time used is 2725
