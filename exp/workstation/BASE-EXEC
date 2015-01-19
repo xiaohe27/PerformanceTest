@@ -39,10 +39,12 @@ My log analyzer: 4.5 seconds, which is 3 times faster than Monpoly
 
 
 ----------------------------------------------------------------------------------------------------
-After restarting, first time, from terminal
+After removing disk caches, first time, from terminal
 @1277857421 insert(ARealUserInTheDB,MYDB,104,73414889)
-It took my log analyzer 2.908 seconds to count all the log entries in the log file.
+It took my log analyzer 4.227 seconds to count all the log entries in the log file in the format of plain txt
 
-terminal, second time:
+terminal, second, third time... (seconds):
 @1277857421 insert(ARealUserInTheDB,MYDB,104,73414889)
-It took my log analyzer 2791 ms to count all the log entries in the log file.
+2.627 2.602 2.569...
+
+The run with disk caches is about 60% faster than that without disk caches!
