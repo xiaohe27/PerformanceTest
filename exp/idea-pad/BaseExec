@@ -45,8 +45,10 @@ If reading byte by byte, then even if doing all the security checks and ensures 
 it only took 5.2 seconds to parse all the 93149 log entries, which is 
 6.5 times as fast as Monpoly, 5.5 times faster than Monpoly
 
+
 My LogAnalyzer's
-Un-checked fast version:  one time faster than Monpoly's opt
+Un-checked fast version (read char stream via buffered reader):
+one time faster than Monpoly's opt
 
 RegEx version: 17% faster than Monpoly's opt
 
