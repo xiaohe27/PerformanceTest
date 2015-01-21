@@ -4,12 +4,19 @@ It took my log analyzer totally 3.816 seconds to first extract the 9M log file f
 
 
 =========================================================================================================
-It took my log analyzer 3.279 seconds to count all the log entries in the log file directly in the format of tar.gz
+It took my log analyzer 3.279 seconds to count all the log entries in the log file directly in the format of .tar.gz
 
-
+About 16% faster than extracting and then analyzing the log in plain text
+About 16.9% slower than Directly doing analysis on the decompressed log file.
 =========================================================================================================
 
 Directly read from .tar.gz:
 commons-compress-1.1.jar: 3259 ms
 commons-compress-1.3.jar: 3257 ms
+
+
+======================================
+Directly doing analysis on the decompressed log file:
+2.725 seconds, 20% faster than reading from compressed data.
+
 
