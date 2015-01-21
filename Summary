@@ -1,0 +1,2 @@
+Eager eval is better to monitor the events that occur very frequently, while
+Lazy eval is much better to monitor the events that seldomly occur.

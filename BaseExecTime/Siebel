@@ -1,0 +1,36 @@
+Check the violation of script_md5 (very small number of occurences)
+=================
+My Log Analyzer:
+Lazy eval:
+@1277857421 script_md5(MY_Script,myMD5)
+It takes my log analyzer 1.369 seconds to find the single violation of script_md5 in the log file after running 5 tests
+
+Eager eval:
+@1277857421 script_md5(MY_Script,myMD5)
+It takes my log analyzer 2.718 seconds to count all the events in the log file after running 5 tests
+
+Lazy approach is 98.5% faster than Eager approach.
+
+Monpoly:
+@1277857421 (time-point 93148): (myMD5)
+
+It took Monpoly (opt) 16 seconds to parse all the events in the 9M log file!
+
+
+***********************************************************************************
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Single violation of insert event:
+My Log Analyzer:
+Lazy:
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414889)
+It takes my log analyzer 3.424 seconds to count all the events in the log file after running 5 tests
+
+eager:
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414889)
+It takes my log analyzer 2.620 seconds to count all the events in the log file after running 5 tests
+
+
+Eager approach is 30.1% faster than Lazy approach.
+Monpoly:
+It took Monpoly (opt) 18 seconds to parse all the events in the 9M log file!
+@1277857421 (time-point 93148): (ARealUserInTheDB,104,73414889)
