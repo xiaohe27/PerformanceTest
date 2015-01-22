@@ -1,3 +1,37 @@
 Lazy evaluation of event args:
 @1277857421 insert(MY2Dears,MYDB,104,73414887)
 It took my log analyzer 3500 ms to count all the log entries in the log file in the format of plain txt
+
+Wrapped around mapped byte buffer, first time, cleared caches:
+@1277857421 insert(MY2Dears,MYDB,104,73414887)
+It took my log analyzer 19116 ms to count all the log entries in the log file in the format of plain txt
+
+second time:
+@1277857421 insert(MY2Dears,MYDB,104,73414887)
+It took my log analyzer 3136 ms to count all the log entries in the log file in the format of plain txt
+
+Eager eval:
+First time, clear all the caches
+@1277857421 insert(MY2Dears,MYDB,104,73414887)
+It took my log analyzer 14062 ms to count all the log entries in the log file in the format of plain txt
+second:
+3152
+
+========================
+script_md5:
+eager: It took my log analyzer 48843 ms to count all the log entries in the log file in the format of plain txt
+
+lazy: 
+first: It took my log analyzer 6797 ms to count all the log entries in the log file in the format of plain txt
+
+second: It took my log analyzer 1821 ms to count all the log entries in the log file in the format of plain txt
+
+
+
+
+
+
+
+
+
+

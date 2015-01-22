@@ -12,3 +12,21 @@ It took Monpoly (opt) 34 seconds to find the single violation (the last entry) i
 It took my log analyzer 5.884 seconds to count all the log entries in the log file.
 
 About 5.778 times as fast as Monpoly opt, 4.778 times faster than Monpoly opt!
+
+==
+with disk caches, lazy eval
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414887)
+It took my log analyzer 5879 ms to count all the log entries in the log file in the format of plain txt
+
+@1277857421 script_md5(MY_Script,myMD5)
+It took my log analyzer 3477 ms to count all the log entries in the log file in the format of plain txt
+
+
++++
+WithOut disk caches, lazy eval
+@1277857421 script_md5(MY_Script,myMD5)
+It took my log analyzer 3660 ms to count all the log entries in the log file in the format of plain txt
+
+@1277857421 insert(ARealUserInTheDB,MYDB,104,73414887)
+It took my log analyzer 6392 ms to count all the log entries in the log file in the format of plain txt
+
