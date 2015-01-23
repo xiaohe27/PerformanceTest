@@ -1,0 +1,57 @@
+CompleteLog with added violations
+
+Only single script_md5 is violated 
+
+@1309390741 script_md5(MY_Script,myMD5)
+
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 47470 ms to count all the events in the log file after running 1 tests
+
+====%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%==========
+Only single insert event is violated
+
+##With 256MB mbb size
+@1309390741 insert(ARealUserInTheDB,MYDB,104,73414889)
+
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 80586 ms to count all the events in the log file after running 1 tests
+
+##With 512MB mbb size
+@1309390741 insert(ARealUserInTheDB,MYDB,104,73414889)
+
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 72993 ms to count all the events in the log file after running 1 tests
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ByteBuffer, allocateDirect:
+4kb byte buffer:
+@1309390741 insert(ARealUserInTheDB,MYDB,104,73414889)
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 75025 ms to count all the events in the log file after running 
+
+64kb byte buffer:
+@1309390741 insert(ARealUserInTheDB,MYDB,104,73414889)
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 77735 ms to count all the events in the log file after running 
+
+For script_md5 event's violation:
+@1309390741 script_md5(MY_Script,myMD5)
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 75364 ms to count all the events in the log file after running 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Complete log is 56.7 times as large as 9M log.

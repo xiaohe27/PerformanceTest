@@ -1,0 +1,10 @@
+Analyze the 7.6 GB log:
+
+Memory:
+mapped byte buffer: 64%
+byte buffer with allocate direct: 8%
+
+CPU: both reached 98%+
+
+Performance:
+mbb slightly better? Doubted.

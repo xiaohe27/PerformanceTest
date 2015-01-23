@@ -1,0 +1,16 @@
+At the very end of the huge log:
+
+add `insert (ARealUserInTheDB,MYDB,104,73414889)`
+
+add `script_md5 (MY_Script,myMD5)`
+
+
+
+==============================
+After adding the two entries, the complete log becomes 
+@1309390741 script_end (script1)
+script_end (script12)
+insert (ARealUserInTheDB,MYDB,104,73414889)
+script_md5 (MY_Script,myMD5)
+
+at the very end
