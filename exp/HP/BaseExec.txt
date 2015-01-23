@@ -4,7 +4,7 @@ It took my log analyzer 3500 ms to count all the log entries in the log file in 
 
 Wrapped around mapped byte buffer, first time, cleared caches:
 @1277857421 insert(MY2Dears,MYDB,104,73414887)
-It took my log analyzer 19116 ms to count all the log entries in the log file in the format of plain txt
+It took my log analyzer 8726 ms to count all the log entries in the log file in the format of plain txt
 
 second time:
 @1277857421 insert(MY2Dears,MYDB,104,73414887)

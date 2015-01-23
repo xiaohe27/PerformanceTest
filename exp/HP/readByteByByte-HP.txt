@@ -22,3 +22,7 @@ Indirect:
 Very rigorous read by byte:
 There are 93149 log entries in the log file!!!
 It took my log analyzer 3474 ms to count all the log entries in the log file
+
+first time (cleaned caches):
+There are 93149 log entries in the log file!!!
+It takes my log analyzer 8235 ms to count all the events in the log file after running 
