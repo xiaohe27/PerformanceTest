@@ -1,8 +1,19 @@
-First time:
-There are 5282763 log entries in the log file!!!
-It takes my log analyzer 44427 ms to count all the events in the log file after running 1 tests
+Monpoly
 
-Second time:
-There are 5282763 log entries in the log file!!!
-It takes my log analyzer 41970 ms to count all the events in the log file after running 1 tests
+Start time : 1422031998
+@1309390741 (time-point 5282762): (ARealUserInTheDB,104,73414889)
+Finish time : 1422032449
 
+It took Monpoly (opt) 451 seconds to parse all the events in the 7.6 GB log file!
+
+==============
+My Log analyzer:
+
+@1309390741 insert(ARealUserInTheDB,MYDB,104,73414889)
+
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 71.499 seconds to count all the events in the log file after running 1 tests
+
+My log analyzer is 
+6.26 times as fast as Monpoly
+5.26 times faster
