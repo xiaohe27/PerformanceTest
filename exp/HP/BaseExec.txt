@@ -17,6 +17,15 @@ It took my log analyzer 14062 ms to count all the log entries in the log file in
 second:
 3152
 
+
+***********************
+refactored (only type check the events occuring in formula file):
+@1277857421 insert(MY2Dears,MYDB,104,73414887)
+
+There are 93149 log entries in the log file!!!
+It took my log analyzer 7693 ms to count all the log entries in the log file in the format of plain txt
+
+
 ========================
 script_md5:
 eager: It took my log analyzer 48843 ms to count all the log entries in the log file in the format of plain txt
