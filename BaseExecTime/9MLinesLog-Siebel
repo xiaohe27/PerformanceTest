@@ -45,6 +45,12 @@ It takes my log analyzer 2.696 seconds to count all the events in the log file a
 
 after removing two assignment ops within the loop, 2.627 seconds 
 
+====================
+refactor so that not-well-formed log files can be detected:
+4825 ms (without disk caches)
+2975 ms (with disk caches)
+2879 ms 2775 ms
+
 ##eager##
 
 Use Character.isDigit for testing whether a byte is digit char:
