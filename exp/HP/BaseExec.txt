@@ -25,6 +25,12 @@ refactored (only type check the events occuring in formula file):
 There are 93149 log entries in the log file!!!
 It took my log analyzer 7693 ms to count all the log entries in the log file in the format of plain txt
 
+eager eval, eval to data obj each time a field is read, instead of simply record the starting index and len,
+and then parse to obj at later stage.
+4231 ms
+3592 ms
+3050 ms
+3029 ms
 
 ========================
 script_md5:

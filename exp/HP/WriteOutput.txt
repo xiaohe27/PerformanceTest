@@ -1,0 +1,8 @@
+There are 93149 log entries in the log file!!!
+It took my log analyzer 7319 ms to output all
+violations of insert property in the log file in the format of plain txt
+Size: 249 MB
+
+After removing the duplicate fields (the one used in formula)
+size become 199 MB
+Time: 6.7 seconds
