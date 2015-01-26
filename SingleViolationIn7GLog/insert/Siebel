@@ -41,6 +41,13 @@ It takes my log analyzer 71499 ms to count all the events in the log file after 
 There are 5282763 log entries in the log file!!!
 It takes my log analyzer 74844 ms to count all the events in the log file after running 1 tests
 
+**********^^^^^^^^^^^^^^****************
+After refactoring optimzation, on Jan 25
+@1309390741 insert(ARealUserInTheDB,MYDB,104,73414889)
+
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 70087 ms to count all the events in the log file after running 1 tests
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ByteBuffer, allocateDirect:
 4kb byte buffer:

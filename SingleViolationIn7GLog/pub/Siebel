@@ -1,0 +1,18 @@
+My Log Analyzer:
+@1309390741 on time point 5282762 publish report 77 without approval
+There are 5282763 log entries in the log file!!!
+It takes my log analyzer 51.294 seconds to count all the events in the log file after running 1 tests
+
+Monpoly:
+Start time : 1422234086
+@1309390741 (time-point 5282762): true
+Finish time : 1422234504
+
+It took Monpoly (opt) 418 seconds to find the single violation of Pub Property in the 7.6 GB log file!
+
+7.1 times faster than Monpoly
+
+
+==========
+optimize method invocation!
+
