@@ -6,3 +6,17 @@ Size: 249 MB
 After removing the duplicate fields (the one used in formula)
 size become 199 MB
 Time: 6.7 seconds
+
+===
+After making the output same as Monpoly: 101 MB
+There are 93149 log entries in the log file!!!
+It took my log analyzer 5205 ms to count all the log entries
+in the log file in the format of plain txt
+
+5049 ms
+
+===
+Using rv-monitor as back-end:
+There are 93149 log entries in the log file!!!
+It took my log analyzer 25103 ms to count all the log entries
+in the log file in the format of plain txt
