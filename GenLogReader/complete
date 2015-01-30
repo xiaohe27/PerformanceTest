@@ -1,0 +1,7 @@
+Direct invoke:
+There are 5282763 log entries in the log file!!!
+It took my log analyzer 436611 ms to count all the log entries in the log file in the format of plain txt
+
+Reflection:
+There are 5282763 log entries in the log file!!!
+It took my log analyzer 465391 ms to count all the log entries in the log file in the format of plain txt

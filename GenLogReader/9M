@@ -1,0 +1,11 @@
+101.4MB's output, exactly the same as Monpoly
+Siebel:
+directly invoke insert event method, clean and no caches:
+There are 93149 log entries in the log file!!!
+It took my log analyzer 22715 ms to count all the log entries in the log file in the format of plain txt
+
+============
+reflection:
+There are 93149 log entries in the log file!!!
+It took my log analyzer 21756 ms to count all the log entries in the log file in the format of plain txt
+
