@@ -9,6 +9,17 @@ There are 2000000 log entries in the log file!!!
 It took my log analyzer 3211 ms to count all the log entries in the log file in the format of plain txt
 
 
+First time: 4034 ms
+3034 3268
+
+optimize the int parsing:
+First time:
+There are 2000000 log entries in the log file!!!
+It took my log analyzer 3870 ms to count all the log entries in the log file in the format of plain txt
+
+3200 3281 3343
+
+==================================================
 Using customized log reader, which switch over event name and then call the right event method:
 There are 2000000 log entries in the log file!!!
 It took my log analyzer 3096 ms to count all the log entries in the log file in the format of plain txt
