@@ -9,3 +9,10 @@ reflection:
 There are 93149 log entries in the log file!!!
 It took my log analyzer 21756 ms to count all the log entries in the log file in the format of plain txt
 
+
+============
+customized log reader:
+It took my customized log analyzer 24 seconds to output all the violations among the events in the 9M log ldcc4Monpoly buggy at Siebels
+
+There is no diff between redirect the std out to file and directly write to file!
+

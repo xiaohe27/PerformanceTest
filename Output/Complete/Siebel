@@ -1,0 +1,10 @@
+2.5GB violations
+
+Generated Method invoker:
+
+It took my customized log analyzer 442 seconds to output all the violations among the events in the complete ldcc4Monpoly log at Siebel
+
+Monpoly:
+It took Monpoly (opt) 877 seconds to output all violations of insert2DB2 Property in the 7.6GB log file!
+
+my log analyzer (rvm as backend) is 98% faster than Monpoly
