@@ -1,0 +1,4 @@
+Start time : 1424386910
+Finish time : 1424410837
+
+It took Monpoly (opt) 23927 seconds to output all violations of delete-1-2 Property in the 300MB log file!
